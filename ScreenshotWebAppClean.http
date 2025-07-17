@@ -1,0 +1,6 @@
+@ScreenshotWebAppClean_HostAddress = http://localhost:5031
+
+GET {{ScreenshotWebAppClean_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
