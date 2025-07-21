@@ -21,9 +21,6 @@ namespace ScreenshotWebApp.Services
             {
                 _logger.LogInformation("Screenshot alma işlemi başladı: {time}", DateTime.Now);
 
-                var browserFetcher = new BrowserFetcher();
-                await browserFetcher.DownloadAsync();
-
                 var launchOptions = new LaunchOptions
                 {
                     Headless = true, // Prod ortamda genellikle true olur
