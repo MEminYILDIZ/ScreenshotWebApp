@@ -1,6 +1,0 @@
-@ScreenshotWebApp_HostAddress = http://localhost:5031
-
-GET {{ScreenshotWebApp_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
